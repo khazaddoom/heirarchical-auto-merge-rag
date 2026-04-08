@@ -1,0 +1,6 @@
+haystack-ai
+chroma-haystack
+pytest
+pypdf
+python-dotenv
+nltk

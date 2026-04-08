@@ -1,0 +1,20 @@
+# Python Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment Variables / Secrets
+.env
+.env.private
+
+# Data & Storage
+storage/
+data/documents/*.pdf
+!data/documents/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
