@@ -1,0 +1,410 @@
+{
+    "total_rules": 45,
+    "rules": [
+        {
+            "category": "Invoicing Procedures",
+            "rule_statement": "Invoices must be submitted to Suncor\u2019s Accounts Payable department or entered into the online system with compliant supporting documentation.",
+            "trigger_condition": "Invoice submission",
+            "action_or_limit": "Invoices must meet the criteria of 'Compliant Invoice'.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation and the Invoicing Requirements"
+        },
+        {
+            "category": "Invoicing Procedures",
+            "rule_statement": "Final invoices must indicate that the Contractor has complied with all laws in relation to its performance under the contract as of the date of the invoice.",
+            "trigger_condition": "Final Invoice submission",
+            "action_or_limit": "Contractor must confirm compliance with all laws.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Invoicing Procedures",
+            "rule_statement": "All payments shall be made based on the compensation outlined in Appendix B, subject to adjustments from the Letter of Understanding.",
+            "trigger_condition": "Payment processing",
+            "action_or_limit": "Payments will be based on Appendix B \u2013 Compensation.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation"
+        },
+        {
+            "category": "Payment Terms and Conditions",
+            "rule_statement": "Payments are made on the basis of Appendix B - Compensation subject to adjustments.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Adjustments as per Appendix F - Letter of Understanding.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B - Compensation"
+        },
+        {
+            "category": "Payment Terms and Conditions",
+            "rule_statement": "Payment terms are net 60 days from the date on a compliant invoice.",
+            "trigger_condition": "Invoice is Compliant",
+            "action_or_limit": "Payment not exceeding 60 days post-invoice date.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Compensation Structures",
+            "rule_statement": "Compensation structure shall be governed by the applicable Lump Sum, Unit Rate or Cost Reimbursable section of Appendix B \u2013 Compensation.",
+            "trigger_condition": "Always",
+            "action_or_limit": "To be determined by the governed structure in Appendix B.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation"
+        },
+        {
+            "category": "Compensation Structures",
+            "rule_statement": "Performance-based compensation model must be established prior to the Work commencement.",
+            "trigger_condition": "Before Work commences",
+            "action_or_limit": "Baseline compensation structure and key performance indicators set.",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Work Authorization or an Amendment to the Multiple Use Contract"
+        },
+        {
+            "category": "Compensation Structures",
+            "rule_statement": "Cost Reimbursable Compensation must reference agreed rates and positions.",
+            "trigger_condition": "Always",
+            "action_or_limit": "As per cost reimbursement agreements.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Attachment CR 1 \u2013 Indirect Labour Reimbursable Positions and Rates, Attachment CR 2 \u2013 Non-Union Direct Labour Reimbursable Positions and Rates, Attachment CR 3 \u2013 Union Direct Labour Reimbursable Positions and Rates, Attachment CR 4 \u2013 Equipment"
+        },
+        {
+            "category": "Travel and Expense Policies",
+            "rule_statement": "Reimbursable Personnel will not be compensated for specific personal expenses such as communication, entertainment, food or beverage, or pet or companion costs.",
+            "trigger_condition": "Always",
+            "action_or_limit": "No compensation for specified personal expenses",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel and Expense Policies",
+            "rule_statement": "Reimbursable Personnel will be compensated for travel costs such as air fare, bus fare, taxi fare, and mileage under specified circumstances.",
+            "trigger_condition": "When traveling for business",
+            "action_or_limit": "Air fare, Bus fare, Taxi fare, Mileage at $0.52/km",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel and Expense Policies",
+            "rule_statement": "To be reimbursed for travel expenses, Reimbursable Personnel must provide specific documentation.",
+            "trigger_condition": "Requesting reimbursement",
+            "action_or_limit": "Itinerary and boarding passes for air travel, receipts for taxi travel",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel and Expense Policies",
+            "rule_statement": "If Reimbursable Personnel need to change or reschedule travel plans after booking, approval from a Suncor director is required for reimbursement of any additional out-of-pocket expenses.",
+            "trigger_condition": "Travel plans are changed or rescheduled",
+            "action_or_limit": "Approval required for additional expenses",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel and Expense Policies",
+            "rule_statement": "The Contractor shall not receive any additional mark-up, Fee or Overhead on Pre-Approved Expenses.",
+            "trigger_condition": "When claiming pre-approved expenses",
+            "action_or_limit": "No mark-up allowed",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Material Costs and Markups",
+            "rule_statement": "The agreed cost for any scaffolding material shall adhere to specified rates.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Cost as per Scaffolding Material Used Rate or Scaffolding Material New Rate",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Exhibit CR 6 \u2013 Suncor Approved Inventory List"
+        },
+        {
+            "category": "Material Costs and Markups",
+            "rule_statement": "No mark-up, Fee, or Overhead is allowed on light vehicles.",
+            "trigger_condition": "When light vehicles are provided",
+            "action_or_limit": "0% mark-up",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Material Costs and Markups",
+            "rule_statement": "No mark-up, Fee, or Overhead is allowed on Actual Cost of Third Party Equipment provided by a Subcontractor that is an Affiliate of the Contractor.",
+            "trigger_condition": "When using Third Party Equipment from an Affiliate",
+            "action_or_limit": "0% mark-up",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Every Change Order must include a description of its scope and specific details applicable to the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must detail relevant Change Notice numbers and brief descriptions where applicable.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must specify the Change Proposal description, including time requirements to perform the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must assess and state the schedule impact of the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must include any necessary compensation adjustments related to the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must specify any adjustments to milestone/schedule incentives due to the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must outline any adjustments to fixed fees as a result of the change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Change Orders must state the 'not to exceed' amount for the adjustments mentioned.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders and Adjustments",
+            "rule_statement": "Specific compensation calculations, hourly rates, and position details may be defined in external attachments.",
+            "trigger_condition": "Always",
+            "action_or_limit": "",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation, Appendix CR 1, Appendix CR 2"
+        },
+        {
+            "category": "Performance Guarantees and Liabilities",
+            "rule_statement": "Any performance guarantees shall be as set out in the applicable Work Authorization.",
+            "trigger_condition": "Always",
+            "action_or_limit": "As per Work Authorization",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Work Authorization"
+        },
+        {
+            "category": "Performance Guarantees and Liabilities",
+            "rule_statement": "The Guarantee remains effective as long as the Contractor has any Guaranteed Obligations to be performed.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Effective until all Guaranteed Obligations are fulfilled",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Dispute Resolution and Claims",
+            "rule_statement": "In the event of a dispute arising, the parties may submit to arbitration or commence litigation.",
+            "trigger_condition": "dispute arises",
+            "action_or_limit": "submit to arbitration or commence litigation",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Dispute Resolution and Claims",
+            "rule_statement": "If arbitration is agreed upon, the parties must attempt to appoint a mutually acceptable arbitrator within 10 days.",
+            "trigger_condition": "arbitration agreed",
+            "action_or_limit": "appoint arbitrator within 10 days",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Dispute Resolution and Claims",
+            "rule_statement": "Payments related to disputes will be payable from a date determined in the arbitration proceedings.",
+            "trigger_condition": "dispute regarding payments",
+            "action_or_limit": "payments due from date determined in arbitration",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "as per arbitration proceedings"
+        },
+        {
+            "category": "Dispute Resolution and Claims",
+            "rule_statement": "Parties must continue to fulfill their contractual obligations despite disputes.",
+            "trigger_condition": "dispute exists",
+            "action_or_limit": "continue fulfilling contractual obligations",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Dispute Resolution and Claims",
+            "rule_statement": "The Contractor must require Subcontractors to enter similar dispute resolution agreements.",
+            "trigger_condition": "subcontracting work",
+            "action_or_limit": "subcontractors must have similar agreements",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Insurance and Security Requirements",
+            "rule_statement": "The Contractor must provide insurance as defined in the contract.",
+            "trigger_condition": "Always",
+            "action_or_limit": "All amounts of applicable insurance coverage required under the Contract",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation"
+        },
+        {
+            "category": "Insurance and Security Requirements",
+            "rule_statement": "The Contractor shall provide evidence of compliance with applicable workers\u2019 compensation legislation and coverage.",
+            "trigger_condition": "Upon request",
+            "action_or_limit": "Proof of compliance with workers' compensation",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Insurance and Security Requirements",
+            "rule_statement": "All property insurance policies must contain a waiver of subrogation against Suncor and related parties.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Waiver of subrogation",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Insurance and Security Requirements",
+            "rule_statement": "The Contractor is responsible for payment of all deductibles applicable to the required insurance.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Payment of deductibles",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Insurance and Security Requirements",
+            "rule_statement": "Each insurance policy must state that it cannot be cancelled without at least 30 days written notice to Suncor\u2019s Representative.",
+            "trigger_condition": "Always",
+            "action_or_limit": "30 days' written notice required for cancellation",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "If an employee does not swipe IN or OUT due to an incident, a Foreman or manager must note the reason on the timesheet.",
+            "trigger_condition": "No Swipe IN or OUT due to incident",
+            "action_or_limit": "No payment or late payment.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "For late swipes or missing swipes, an exclusive sign IN/OUT sheet with signature and start/end times must be provided.",
+            "trigger_condition": "Swipe IN or OUT not recorded",
+            "action_or_limit": "No payment or late payment.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "Employee must turn in their card on their last day of work.",
+            "trigger_condition": "Last Day of Work",
+            "action_or_limit": "Bill hours as per union or contractual agreement; bill for maximum hours swiped unless approval to bill for the full shift.",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "If there is no swipe OUT due to a site safety incident, the foreman's or manager's notes should justify the absence.",
+            "trigger_condition": "No Swipe OUT due to site safety incident",
+            "action_or_limit": "No payment or late payment.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "If an employee swipes at a different machine, hours must be billed as per vendor approved timesheet.",
+            "trigger_condition": "Employee swipes at different swipe machine",
+            "action_or_limit": "Bill hours as per vendor approved timesheet.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "Complete a sign-in sheet for training courses if no swipe machines are available.",
+            "trigger_condition": "No swipe machines available at training facility",
+            "action_or_limit": "Validate employee full attendance to the course; attach course sign-in sheet to line item in CCC.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "For any early swipe OUT on the last day of employment, a termination log must be provided along with supporting attendance documentation.",
+            "trigger_condition": "Early Swipe OUT on last day of employment",
+            "action_or_limit": "No payment or late payment; attach exclusive sign IN/OUT sheet.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Attendance and Timekeeping Policies",
+            "rule_statement": "Late swipes require an exclusive sign IN/OUT sheet and timely completion.",
+            "trigger_condition": "Late Swipe",
+            "action_or_limit": "Please attach to line item in CCC; backup to support attendance.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        }
+    ]
+}

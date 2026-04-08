@@ -1,0 +1,347 @@
+{
+    "total_rules": 38,
+    "rules": [
+        {
+            "category": "Payment Terms & Conditions",
+            "rule_statement": "Payments are made based on a compliant invoice.",
+            "trigger_condition": "Invoice is compliant",
+            "action_or_limit": "Net 60 days from invoice date",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Payment Terms & Conditions",
+            "rule_statement": "Payments adjustments are based on the guidelines outlined in Appendix F.",
+            "trigger_condition": "Adjustments to amounts payable.",
+            "action_or_limit": "As per Appendix F",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix F \u2013 Letter of Understanding"
+        },
+        {
+            "category": "Payment Terms & Conditions",
+            "rule_statement": "Payments will refer to the compensation terms specified in Appendix B.",
+            "trigger_condition": "Subject to the General Conditions.",
+            "action_or_limit": "As per Appendix B",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation"
+        },
+        {
+            "category": "Compensation & Billing Adjustments",
+            "rule_statement": "Requests to amend Appendix B \u2013 Compensation must be submitted by the Contractor at least 30 days prior to the proposed effective date of the requested change.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Submit requests at least 30 days in advance",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Compensation & Billing Adjustments",
+            "rule_statement": "The Contractor will invoice Suncor at least monthly for the Cost Reimbursable Work completed in the applicable month.",
+            "trigger_condition": "Cost Reimbursable Work completed in the applicable month",
+            "action_or_limit": "Invoice at least monthly",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Compensation & Billing Adjustments",
+            "rule_statement": "Amendments to the Hourly Base Rates and Burdens require written approval in accordance with Paragraph 61.3 \u2013 Amendments.",
+            "trigger_condition": "Changes to the Hourly Base Rates and Burdens",
+            "action_or_limit": "Require written approval",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Paragraph 61.3 \u2013 Amendments"
+        },
+        {
+            "category": "Compensation & Billing Adjustments",
+            "rule_statement": "Rate adjustments may be subject to Suncor's discretion for review of the basis of the adjustment.",
+            "trigger_condition": "Proposed rate changes to Allocated Costs",
+            "action_or_limit": "Subject to review",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Invoicing Requirements & Submission",
+            "rule_statement": "Invoices must meet the requirements set by Suncor's invoicing standards and must include compliant supporting documentation.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Must comply with Suncor's invoicing standards and policies.",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation and the Invoicing Requirements"
+        },
+        {
+            "category": "Travel & Expense Policies",
+            "rule_statement": "Reimbursable Personnel shall not be compensated for specific non-travel related expenses.",
+            "trigger_condition": "Expense Category is communication, entertainment, food or beverage, or pet or companion costs",
+            "action_or_limit": "No compensation provided",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel & Expense Policies",
+            "rule_statement": "Compensation is allowed for certain types of travel expenses.",
+            "trigger_condition": "Expenses incurred by Reimbursable Personnel while traveling for business",
+            "action_or_limit": "Compensation includes Air fare, Bus fare, Taxi fare, and Mileage at $0.52/km",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel & Expense Policies",
+            "rule_statement": "Reimbursable Personnel must provide documentation for travel expenses to be reimbursed.",
+            "trigger_condition": "For air, bus, or taxi travel expenses",
+            "action_or_limit": "Must provide itinerary showing total cost and boarding passes or receipts",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel & Expense Policies",
+            "rule_statement": "Approval is required for any additional out of pocket expenses incurred due to changes in travel plans.",
+            "trigger_condition": "Reimbursable Personnel is asked to change and/or reschedule travel plans after booking",
+            "action_or_limit": "Approval must be obtained from a Suncor director for additional expenses",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Travel & Expense Policies",
+            "rule_statement": "Specific setup is defined for entering charges and travel allowances.",
+            "trigger_condition": "Entering charges into Suncor\u2019s system for Home Return Travel Allowance",
+            "action_or_limit": "Use service master number #3009084 for Direct Labour and #3008309 for Indirect Labour",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Overtime & Shift Schedules",
+            "rule_statement": "Compensation for overtime for Indirect Labour and non-union Direct Labour Personnel is according to the agreed shift schedule.",
+            "trigger_condition": "Overtime approved by Suncor",
+            "action_or_limit": "Overtime hourly rates as per Attachment CR 3",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Attachment CR 3 \u2013 Union Direct Labour Reimbursable Positions and Rates"
+        },
+        {
+            "category": "Overtime & Shift Schedules",
+            "rule_statement": "If overtime is required outside of the pre-approved shift schedule, prior verbal approval from Suncor must be obtained.",
+            "trigger_condition": "Overtime outside pre-approved shift schedule",
+            "action_or_limit": "Verification of approval in writing using the Overtime Approval Form",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix C \u2013 Forms"
+        },
+        {
+            "category": "Overtime & Shift Schedules",
+            "rule_statement": "Direct Labour Union Personnel approved to work overtime shall be compensated for overtime meals as per the applicable collective bargaining agreement.",
+            "trigger_condition": "Direct Labour Union Personnel working overtime",
+            "action_or_limit": "Overtime meal rates as set out in Attachment CR 3",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Attachment CR 3 \u2013 Union Direct Labour Reimbursable Positions and Rates"
+        },
+        {
+            "category": "Overtime & Shift Schedules",
+            "rule_statement": "Attach backup to support attendance/OT; if swipe is missing, an exclusive sign IN/OUT sheet must be provided.",
+            "trigger_condition": "Swipe data unavailable",
+            "action_or_limit": "Sign IN/OUT sheet with signature and start/end times required",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Overtime & Shift Schedules",
+            "rule_statement": "Shifts may be amended depending on the requirements of the Work.",
+            "trigger_condition": "Work requirements change",
+            "action_or_limit": "Shift schedules are subject to modification",
+            "requires_approval": false,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix A \u2013 Scope of Work, Paragraph 9 Schedule and Sequence of Work"
+        },
+        {
+            "category": "Material Costs & Markups",
+            "rule_statement": "The agreed upon cost for any or all of the material shall be based on the applicable Rates for Scaffolding Material as specified.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Refer to the Scaffolding Material Used Rate or Scaffolding Material New Rate.",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Exhibit CR 6 \u2013 Suncor Approved Inventory List"
+        },
+        {
+            "category": "Material Costs & Markups",
+            "rule_statement": "The Contractor shall not receive any mark-up, Fee, or Overhead on light vehicles.",
+            "trigger_condition": "Always",
+            "action_or_limit": "No mark-up on light vehicles.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Material Costs & Markups",
+            "rule_statement": "The Contractor shall identify opportunities to offset rate increases.",
+            "trigger_condition": "If rate increases occur",
+            "action_or_limit": "Offset all or a portion of the cost impact through changes to compensation.",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Material Costs & Markups",
+            "rule_statement": "Actual rates for Contractor supplied goods, materials, or services must adhere to the pricing structure outlined.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Follow Attachment CR 1, CR 2, CR 3, and CR 4.",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Attachment CR 1 \u2013 Indirect Labour Reimbursable Positions and Rates, Attachment CR 2 \u2013 Non-Union Direct Labour Reimbursable Positions and Rates, Attachment CR 3 \u2013 Union Direct Labour Reimbursable Positions and Rates"
+        },
+        {
+            "category": "Change Orders & Compensation Adjustments",
+            "rule_statement": "The compensation for changes includes all direct and indirect costs, overhead, profit, and other impacts.",
+            "trigger_condition": "Change Ordered",
+            "action_or_limit": "Includes all relevant costs and expenses",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders & Compensation Adjustments",
+            "rule_statement": "All changes must include a description of the scope of the Change Order and relevant details.",
+            "trigger_condition": "Change Order issued",
+            "action_or_limit": "Scope description and details are to be provided",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Change Orders & Compensation Adjustments",
+            "rule_statement": "Schedule and compensation adjustments must be documented in accordance with the Change Order.",
+            "trigger_condition": "Change Order issued",
+            "action_or_limit": "Adjustment to be quantified and documented",
+            "requires_approval": true,
+            "requires_external_lookup": true,
+            "external_reference_source": "Appendix B \u2013 Compensation"
+        },
+        {
+            "category": "Change Orders & Compensation Adjustments",
+            "rule_statement": "The Contract is changed only by agreement of both parties in accordance with the specified precedence of documents.",
+            "trigger_condition": "Change Order issued",
+            "action_or_limit": "Changes are to follow the specified order of precedence",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Financial Security & Liability Limits",
+            "rule_statement": "Financial Security must be provided in an amount no less than the amount of the reduction being sought by the Contractor.",
+            "trigger_condition": "Contractor seeks reduction in financial security",
+            "action_or_limit": "Financial Security amount must equal the reduction sought",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Financial Security & Liability Limits",
+            "rule_statement": "The liability of the Contractor is limited to the greater of all amounts of applicable insurance coverage required to be maintained under the Contract.",
+            "trigger_condition": "Contractor's liability is invoked",
+            "action_or_limit": "Liability limited to insurance coverage amount",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Financial Security & Liability Limits",
+            "rule_statement": "Professional Liability Insurance must cover professional negligence with a limit of not less than $5 million per claim.",
+            "trigger_condition": "Professional services are provided by Contractor",
+            "action_or_limit": "$5 million limit per claim",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Financial Security & Liability Limits",
+            "rule_statement": "Automobile Liability Insurance must have limits of not less than $2 million for injuries or deaths caused.",
+            "trigger_condition": "Use of vehicles in services provided",
+            "action_or_limit": "$2 million limit",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Financial Security & Liability Limits",
+            "rule_statement": "Payments made to the Contractor or reductions of the Holdback Amount do not constitute approval or acceptance of work.",
+            "trigger_condition": "Payments or Holdback reductions are processed",
+            "action_or_limit": "No approval or acceptance implied",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Audit & Financial Reporting Requirements",
+            "rule_statement": "Suncor can audit the records of the Contractor and its Subcontractors.",
+            "trigger_condition": "Always",
+            "action_or_limit": "Contractor must provide access to records and copies as needed.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Audit & Financial Reporting Requirements",
+            "rule_statement": "The Contractor must provide audited financial statements upon request.",
+            "trigger_condition": "At the request of SESI",
+            "action_or_limit": "Audited statements for the preceding fiscal year within 14 days before the Effective Date and within 120 days after the end of each fiscal year during the Term.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Audit & Financial Reporting Requirements",
+            "rule_statement": "If Suncor conducts an audit and identifies claims, the limitation period for those claims starts from the date the final audit report is issued.",
+            "trigger_condition": "Audit results in identified claims",
+            "action_or_limit": "Limitation period commences upon the final audit report issuance.",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Site Management & Demobilization Costs",
+            "rule_statement": "Demobilization is not payable if Reimbursable Personnel leave the project before the end of their expected shift or term at the Site.",
+            "trigger_condition": "Reimbursable Personnel leave before shift or term end",
+            "action_or_limit": "No demobilization payment",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Site Management & Demobilization Costs",
+            "rule_statement": "The Contractor will be compensated for initial mobilization and final demobilization expenses.",
+            "trigger_condition": "Start and end of the project",
+            "action_or_limit": "Payment for mobilization and demobilization expenses",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Site Management & Demobilization Costs",
+            "rule_statement": "Contractor shall not receive additional compensation for meal, accommodation, and temporary relocation allowances as these are part of Living Out Allowance expenses.",
+            "trigger_condition": "Claims for meals, accommodations, temporary relocation",
+            "action_or_limit": "No additional payment outside Living Out Allowance",
+            "requires_approval": false,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        },
+        {
+            "category": "Site Management & Demobilization Costs",
+            "rule_statement": "Commute time and costs for Reimbursable Personnel are not compensated unless pre-approved by Suncor\u2019s Representative.",
+            "trigger_condition": "Commute for Reimbursable Personnel without pre-approval",
+            "action_or_limit": "No compensation for commute",
+            "requires_approval": true,
+            "requires_external_lookup": false,
+            "external_reference_source": null
+        }
+    ]
+}

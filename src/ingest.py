@@ -17,7 +17,7 @@ class IngestionPipeline:
         We use word splitting to guarantee chunk limits don't exceed OpenAI's 8192 token max.
         """
         if block_sizes is None:
-            block_sizes = [1024, 256, 64]
+            block_sizes = [768, 256, 64]
             
         self.block_sizes = block_sizes
         self.pdf_converter = PyPDFToDocument()
